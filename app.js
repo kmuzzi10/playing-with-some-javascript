@@ -7,6 +7,10 @@ x += y //it add y value into x now x value is 10 we can also use -= to subtract 
 
 
 
+//bottels
+
+
+
 
 
 

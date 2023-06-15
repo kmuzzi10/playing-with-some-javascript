@@ -1,0 +1,1 @@
+in this excersice we create a function who calculated our years , weeks and months remaining in our life while we are living to 90 years
