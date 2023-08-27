@@ -1,4 +1,4 @@
-//text box
+//text box example
 
 var textBox = prompt('enter characters');
 var textBoxCount = textBox.length;
