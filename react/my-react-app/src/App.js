@@ -3,6 +3,12 @@ import ReactDOM from "react-dom";
 import App from './App';
 
 
+
+
+//*************************************************task1************************************************************** */
+//                  CSS
+
+
 // const customCss = {
 //   color:"red",
 //   fontSize:"4rem"
@@ -26,39 +32,32 @@ import App from './App';
 //   document.getElementById('root')
 // )
 
-let textColor = "";
-let greeting = ""
 
 
-const date = new Date();
-const hour = date.getHours();
-if(hour>=1 && hour<6){
-  textColor = "black";
-  greeting = "good night"
-}
-else if(hour>=6 && hour<12){
-textColor = "red";
-greeting = "good morning"
-}else if(hour>=12 && hour<18 ){
-textColor = "green"
-greeting = "good afternoon"
-}else{
-  textColor = "blue"
-  greeting = "good evening"
-}
+//*************************************************task2************************************************************** */
 
-const colorCss = {
-  color : textColor
-}
+import Greetings from "./components/Greetings"
+
+
 ReactDOM.render(
   <div>
-    <h1 style={colorCss}>{greeting}</h1>
+    <Greetings />
   </div>,
   document.getElementById("root")
 )
 
 
 
+
+//*************************************************task3************************************************************** */
+//              COMPONENTS
+
+// import Complete from "./Complete"
+
+// ReactDOM.render(
+//   <Complete />,
+//   document.getElementById('root')
+// )
 
 
 
