@@ -1,6 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from "react-dom";
+import Heading from "./components/heading"
 
 
-const root = ReactDOM.createRoot(<h1>Hello World</h1>,document.getElementById('root'));
+ReactDOM.render(
+  < Heading />,
+  document.getElementById('root')
+)
+
 
